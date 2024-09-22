@@ -1,0 +1,16 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/opencv",
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.configureArgs": [
+        "-DCMAKE_BUILD_TYPE=Release",
+        // "-DBUILD_DOCS=ON",
+        "-DBUILD_EXAMPLES=ON"
+    ],
+    "C_Cpp.default.compilerPath": "/usr/bin/clang",
+    "cmake.buildTask": true,
+    "cmake.debugConfig": {
+        "args": [
+            "-DCMAKE_BUILD_TYPE=Debug",
+        ]
+    }
+}
